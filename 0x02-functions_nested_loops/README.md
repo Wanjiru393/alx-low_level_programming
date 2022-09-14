@@ -1,16 +1,17 @@
-Functions, nested loops
+## Functions, nested loops
 Project aims to learn about header files, functions, loops and nested loops in C language.
 
-Technologies
+## Technologies
 C files are compiled using gcc 4.8.4
 C files are written according to the C90 standard
 Tested on Ubuntu 20.04 LTS
-Files
+
+## Files
 All of the following files are programs written in C:
 
 Filename        Description
-0-putchar.c     Prints _putchar
-1-alphabet.c    Prints the alphabet in lowercase
+# 0-putchar.c     Prints _putchar
+# 1-alphabet.c    Prints the alphabet in lowercase
 2-print_alphabet_x10.c  Prints 10 times the alphabet, in lowercase
 3-islower.c     Checks for lowercase character
 4-isalpha.c     Checks for alphabetic character
