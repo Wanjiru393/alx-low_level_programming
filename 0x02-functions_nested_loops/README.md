@@ -2,9 +2,9 @@
 Project aims to learn about header files, functions, loops and nested loops in C language.
 
 ## Technologies
-*C files are compiled using gcc 4.8.4
-*C files are written according to the C90 standard
-*Tested on Ubuntu 20.04 LTS
+* C files are compiled using gcc 4.8.4
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
 
 ## Files
 All of the following files are programs written in C:
@@ -26,4 +26,3 @@ All of the following files are programs written in C:
 * 102-fibonacci.c  -   Prints the first 50 Fibonacci numbers, starting with 1 and 2
 * 103-fibonacci.c  -   Finds and prints the sum of the even-valued terms
 * 104-fibonacci.c   -  Finds and prints the first 98 Fibonacci numbers
-
