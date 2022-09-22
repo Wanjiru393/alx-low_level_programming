@@ -1,25 +1,17 @@
 #include "main.h"
 
 /**
- * _strspn - gets lengthof a prefix substring
- * @s: string to check
- * @accept: string to check against
+ * _strcmp - compares two strings
+ * @s1: first string
+ * @s2: second string
  *
- * Return: number of bytes of s in accept
+ * Return: outputs the difference of s1 and s2
  */
-unsigned int _strspn(char *s, char *accept)
+int _strcmp(char *s1, char *s2)
 {
-	unsigned int i, j;
+	int i = 0;
 
-	for (i = 0; s[i]; i++)
-	{
-		for (j = 0; accept[j]; j++)
-		{
-			if (s[i] == accept[j])
-				break;
-		}
-		if (!accept[j])
-			break;
-	}
-	return (i);
+	while (*(s1 + i) && *(s2 + i) && (*(s1 + i) == *(s2 + i)))
+		i++;
+	return (*(s1 + i) - *(s2 + i));
 }
