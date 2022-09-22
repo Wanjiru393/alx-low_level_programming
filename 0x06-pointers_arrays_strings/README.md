@@ -9,9 +9,9 @@ A follow-up project on pointers.
 - allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
 ## File Descriptions
 ### Mandatory
-**[0-strcat.c](0-strcat.c)** - function that concatenates two strings.
+- **[0-strcat.c](0-strcat.c)** - function that concatenates two strings.
 
-**[1-strncat.c](1-strncat.c)** - function that concatenates two strings up to `n` bytes.
+- **[1-strncat.c](1-strncat.c)** - function that concatenates two strings up to `n` bytes.
 
 **[2-strncpy.c](2-strncpy.c)** - function that copies a string.
 
