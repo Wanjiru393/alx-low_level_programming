@@ -3,7 +3,6 @@
 ## About
 An introductory project on:
 - recursion, and how to use it
-- 
 ## Requirements
 - Ubuntu 20.04
 - gcc 4.8.4
