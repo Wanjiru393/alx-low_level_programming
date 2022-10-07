@@ -1,8 +1,8 @@
 
-##0x09. C - Static libraries
+## 0x09. C - Static libraries
 
 This is the step by step process for the solving the static library project!
-###1. Create the 0x09... Folder and put a non empty README.md file in it.
+### 1. Create the 0x09... Folder and put a non empty README.md file in it.
 You can git push this before continuation.
 
 ###2. Go to your alx-low_level_programming directory/repo
@@ -13,7 +13,7 @@ cp -r 0x02-functions_nested_loops/3-islower.c 0x02-functions_nested_loops/4-isal
 
 this will copy all the needed files all at once (20 in total actually)
 
-###3. Create a main.h file that contains the prototype of all this functions.
+### 3. Create a main.h file that contains the prototype of all this functions.
 your main.h file should be
 
 #ifndef MAIN_H
@@ -40,7 +40,7 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 #endif
 
-4. Now,
+### 4. Now,
 You can start the creation of your static library
 First
 
@@ -85,7 +85,7 @@ _putchar.o
 
 __________________________
 
-5. To Push only your libmy.a and main.h
+### 5. To Push only your libmy.a and main.h
 Create a .gitignore file
 
 e.g vi .gitignore
@@ -94,8 +94,8 @@ then add these 2 lines
 *.c
 *.o
 
-6. git add .
-7. git commit -m "insert your commit message"
-8. git push
+### 6. git add .
+### 7. git commit -m "insert your commit message"
+### 8. git push
 
-9. Check your codes, it shouls all check out.
+### 9. Check your codes, it shouls all check out.
