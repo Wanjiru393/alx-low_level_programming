@@ -5,7 +5,7 @@ This is the step by step process for the solving the static library project!
 ### 1. Create the 0x09... Folder and put a non empty README.md file in it.
 You can git push this before continuation.
 
-###2. Go to your alx-low_level_programming directory/repo
+### 2. Go to your alx-low_level_programming directory/repo
 
 then paste 
 
