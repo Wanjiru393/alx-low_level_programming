@@ -101,8 +101,8 @@ then add these 2 lines
 ### 9. Check your codes, it shouls all check out.
 
 
-
-##Inside your create_static_lib.sh you are meant to add this inside
+# create_static_lib.sh
+## Inside your create_static_lib.sh you are meant to add this inside
 - #!/bin/bash
 -  gcc -c *.c
 -  ar rc liball.a *.o
