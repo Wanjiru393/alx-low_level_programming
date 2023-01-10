@@ -12,4 +12,4 @@ All of the following files are scripts and programs written in C:
 
 | Filename | Description |
 | -------- | ----------- |
-| `0-preprocessor` | Runs a C file through the preprocessor and saves the result into another file |
+| `0-hash_table_create.c` | Write a function that creates a hash table |
